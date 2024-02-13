@@ -36,18 +36,3 @@ mean(ny_data$stars)
 mean(ca_data$stars)
 
 
-
-ggplot(df, aes(x=state, y=stars)) + 
-  geom_bar(stat = "identity")
-
-state_list= unique(df$state)
-
-
-
-bar_graph_df = data.frame(
-  states= state_list,
-  avg = c( mean(df$state["TX"]              )
-)
-
-
-
