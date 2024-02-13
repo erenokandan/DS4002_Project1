@@ -13,27 +13,5 @@ UVA DS 4002 Spring 2024 Group 13 Project 1 Files
 Both Mac and Wondiws machines were used during the process, project will replicable in both environments
 
 ## Map of the Documentation
-repository_name
-│   README.md
-│   LICENSE
-│
-├── docs
-│   ├── index.html
-│   ├── styles.css
-│   └── scripts.js
-│
-├── src
-│   ├── main.py
-│   ├── utils
-│   │   ├── helper_functions.py
-│   │   └── constants.py
-│   └── tests
-│       └── test_main.py
-│
-└── data
-    ├── images
-    │   ├── image1.jpg
-    │   └── image2.png
-    └── dataset.csv
 
 ## Reproducing Results
