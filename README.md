@@ -6,7 +6,7 @@ UVA DS 4002 Spring 2024 Group 13 Project 1 Files
 ### Additional Packages Utilized
 - Pandas package in python was used to manipulate and create data
 - Vader sentimental analysis package was used to analyze reviews made by McDonald's patrons
-- Plotly Express Package was used to create various plots in Python
+- Plotly Express and plotly.graph_objects Package was used to create various plots in Python
 - No additional packages need to be installed on R
 
 ### Platform 
