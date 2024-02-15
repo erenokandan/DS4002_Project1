@@ -1,0 +1,42 @@
+---
+title: "DS4001 P1"
+author: "Nathan Geng"
+date: '2024-02-13'
+output: html_document
+---
+
+```{r}
+library(dplyr)
+
+df <- read.csv('McDonalds.csv')
+
+# Use dplyr package to separate compound score into Positive, Negative, and Neutral groups
+df <- df %>%
+  mutate(sentiment_group = case_when(
+    between(compound, 0.2, 1.0) ~ "Positive",
+    between(compound, -1.2, -0.2) ~ "Negative",
+    between(compound, -0.19, 0.19) ~ "Neutral",
+    TRUE ~ "Other"
+  ))
+```
+
+```{r}
+
+# Perform t-tests for each group to determine if there is a significant difference between the average compound scores for each group
+
+result_positive <- t.test(df$compound[df$sentiment_group == "Positive"])
+result_negative <- t.test(df$compound[df$sentiment_group == "Negative"])
+result_neutral <- t.test(df$compound[df$sentiment_group == "Neutral"])
+
+# Perform t-tests to compare average compound scores of each group
+
+t1 <- t.test(df$compound[df$sentiment_group == "Positive"], df$compound[df$sentiment_group == "Negative"])
+t2 <- t.test(df$compound[df$sentiment_group == "Positive"], df$compound_score[df$sentiment_group == "Neutral"])
+t3 <- t.test(df$compound[df$sentiment_group == "Negative"], df$compound_score[df$sentiment_group == "Neutral"])
+
+# Determine if sentiment group is significant in influencing the stars rating
+
+result_anova <- aov(stars ~ sentiment_group, data = df)
+
+```
+
