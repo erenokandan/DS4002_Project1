@@ -21,3 +21,6 @@ Both Mac and Wondiws machines were used during the process, project will replica
 - References, Readme.md, and License do not include subfolders within them
 
 ## Reproducing Results
+To replicate results of this study, first step will downloading the original dataset from the Data folder in github, McDonalds_reviews.csv.
+After donwloading the original dataset, next step will be running the master script, where data is cleaned, Vader package is ran, and cleaned data is downloaded in the current working directionary within your machine. Cleaned dataset, Mcdonalds_clean.csv, can also be used for data visualization done in R or the one genrated withion the master script. 
+
