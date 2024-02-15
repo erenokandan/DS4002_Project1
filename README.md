@@ -14,11 +14,22 @@ Both Mac and Wondiws machines were used during the process, project will replica
 
 ## Map of the Documentation
 ### There are 6 main files and some of them include subfolders within them 
-#### Data, Output, Scripts, License, References, and Readme.md are the main folders
-- Data file includes original dataset, McDonalds_reviews.csv is the original dataset and Mcdonalds_clean.csv is the cleanded dataset
-- Output file includes Figure 1.png, Figure 2.png, Figure 3.png, Figure 4.png, and Figure 5.png outputs that were generated for data exploration
-- Scripts file includes DS4002_Project1.ipynb is the master script file, and DS Spring 24 Project1.R is data visualization component
-- References, Readme.md, and License do not include subfolders within them
+- Root
+  - DATA
+    - McDonalds_reviews.csv
+    - McDonalds_clean.csv
+  - OUTPUT
+    - Figure 1.png
+    - Figure 2.png
+    - Figure 3.png
+    - Figure 4.png
+    - Figure 5.png
+  - SCRIPTS
+    -  DS4002_Project1.ipynb = Master script
+    -  DS Spring 24 Project 1.R
+  - Readnme.md
+  - LICENSE
+  - References
 
 ## Reproducing Results
 To replicate results of this study, first step will downloading the original dataset from the Data folder in github, McDonalds_reviews.csv.
