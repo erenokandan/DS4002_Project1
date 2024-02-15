@@ -13,7 +13,7 @@ UVA DS 4002 Spring 2024 Group 13 Project 1 Files
 Both Mac and Wondiws machines were used during the process, project will replicable in both environments
 
 ## Map of the Documentation
-### There are 6 main files and some of them include subfolders within them 
+#### There are 6 main files and some of them include subfolders within them 
 - Root
   - DATA
     - McDonalds_reviews.csv
