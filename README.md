@@ -18,6 +18,7 @@ Both Mac and Wondiws machines were used during the process, project will replica
   - DATA
     - McDonalds_reviews.csv
     - McDonalds_clean.csv
+    - Data Appendix
   - OUTPUT
     - Figure 1.png
     - Figure 2.png
