@@ -28,11 +28,12 @@ Both Mac and Wondiws machines were used during the process, project will replica
   - SCRIPTS
     -  DS4002_Project1.ipynb = Master script
     -  DS Spring 24 Project 1.R
+    -  DS4002_P1_hTesting.Rmd
   - Readnme.md
   - LICENSE
   - References
 
 ## Reproducing Results
 To replicate results of this study, first step will downloading the original dataset from the Data folder in github, McDonalds_reviews.csv.
-After donwloading the original dataset, next step will be running the master script, where data is cleaned, Vader package is ran, and cleaned data is downloaded in the current working directionary within your machine. Cleaned dataset, Mcdonalds_clean.csv, can also be used for data visualization done in R or the one genrated withion the master script. 
+After donwloading the original dataset, next step will be running the master script, where data is cleaned, Vader package is ran, and cleaned data is downloaded in the current working directionary within your machine. Cleaned dataset, Mcdonalds_clean.csv, can also be used for data visualization done in R or the one genrated withion the master script. Lastly, H test was run by running DS4002_P1_hTesting.Rmd.
 
